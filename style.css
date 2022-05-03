@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+main {
+    background-color: rgba(169, 169, 169, 0.301);
+    margin: 2.5em 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    font-family: Ubuntu;
+}
+#title {
+    font-size: 4em;
+    color: rgb(83, 83, 83);
+    text-align: center;
+    padding: .5em;
+    font-family: sans-serif;
+}
+#title-caption {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+#img-div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 90vw;
+    height: 35em;
+    margin-bottom: 18em;
+}
+#image {
+    max-width: 100%;
+    padding-bottom: 2em;
+    display: block;
+    align-self: center;
+}
+#img-caption {
+    font-size: 1.5em;
+    text-align: center;
+}
+hr {
+    background-color: rgba(128, 128, 128, 0.027);
+    border: .15em solid rgba(128, 128, 128, 0.329);
+    border-radius: 1em;
+}
+#tribute-info {font-size: 1.4em;}
+#tribute-info h2 {padding-bottom: 2em;}
+
+#tribute-info ul {
+    font-size: medium;
+    line-height: 2em;
+    padding: 0 2em;
+    margin-bottom: 2em;
+}
+#quote {
+    font-size: 1.3em;
+}
+a {
+    color: rgb(0, 102, 255);
+}
+a:hover{
+    animation-name: link;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+@keyframes link {
+    100% {
+        font-size: 1.3em;
+    }
+}
